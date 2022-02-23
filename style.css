@@ -1,0 +1,34 @@
+body{
+    background-color:#FBECEA;
+}
+
+a{
+    text-decoration-color: #66899D;
+    color: #66899D;
+}
+
+h1,h2{
+    color:#66899D;
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter ;
+    }
+
+img[src*="book"]{ padding: 5%;
+     
+}
+h3{
+    background-color: #F6E9ED;
+    color: white;
+    border-style: solid;
+    border-color: white; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter ;
+    padding-left: 5%;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter ;
+    color: #66899D;
+    font-size: large;
+}
