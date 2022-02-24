@@ -86,6 +86,17 @@ h6{
     font-style: 'Semi-bold 600';
     font-size: 20px;
 }
+.contactName,
+.contactComment{
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid; 
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Noto Serif Display', serif;
+    font-style: 'Semi-bold 600';
+    font-size: 20px;
+}
 
 .messageInput{
     height: 200px;

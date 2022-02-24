@@ -60,8 +60,8 @@
   <body>
     <div><center>   
       <h1>Let's work together!</h1> </center></div><br>
-      <div class="wholeForm"><center>
-        <form action="mailto:ameliatorresh@yahoo.com" enctype=”multipart/form-data”
+      <div class="wholeForm">
+        <!--FORM ONE:--><!--<form action="mailto:ameliatorresh@yahoo.com" enctype=”multipart/form-data”
         method="post" name="EmailForm"><br><br>>
           <label class="label"><h4>What's your name?</h4></label>
             <textarea class="nameInput" type="text" name="name" id="name" placeholder="  Name"></textarea>
@@ -72,8 +72,19 @@
             <textarea class="messageInput" type="text" placeholder="  Your message here."
             min-length="5" max-length="500" required></textarea>
             <br><br>
-            <input type="submit" value="SUBMIT" /><br><br>
-        </center></div>
+            <input type=”text” size=”19″ name=”ContactName”>Your Email Form<br><br>
+            <input type="submit" value="SUBMIT" /><br><br>-->
+            <!--FORM TWO-->
+            <center><form action=”mailto:ameliatorresh@yahoo.com”
+            method="post"
+            enctype=”multipart/form-data”
+            
+            name=”EmailForm”>
+            <h3>Name:</h3><br>
+            <input type=”text” size=”25″ name=”ContactName” class="contactName"><br><br><h3>
+            Message:</h3><br> <textarea name=”ContactComment” rows=”10″ cols=”40″ class="contactComment">
+            </textarea><br><br> <input type=”submit” value="Submit"></form></center>
+        </div>
           </form>
   
           <br><br><br>
