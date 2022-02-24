@@ -1,8 +1,8 @@
 header{
-    background-color: #A6A6A6;}
+    background-color: white;}
     
 body{
-    background-image: linear-gradient(#A6A6A6, black);
+    background-color: white;
 }
 
 a{
@@ -14,19 +14,19 @@ a{
  .myName {
     font-family: 'Noto Serif Display', serif;
     font-style: 'Semi-bold 600';
-    color:white;
+    color:black;
     font-size: xx-large;
   }
 .webDev {
     font-family: 'Poppins', sans-serif;
     font-weight: lighter ;
-    color:white;
+    color:black;
   }
 /*end centered text*/
 h1{
     font-family: 'Noto Serif Display', serif;
     font-style: 'Semi-bold 600';
-    color:white;
+    color:black;
     }
 h2{
     color:black;
@@ -35,11 +35,11 @@ h2{
     font-weight: lighter ;
     }
 
-img[src*="book"]{ padding: 5%;
+/*img[src*="book"]{ padding: 5%;
      
-}
+}*/
 h3{
-    color: white;
+    color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: lighter ;
     padding-left: 5%;
@@ -48,7 +48,7 @@ h3{
 h4{
     font-family: 'Poppins', sans-serif;
     font-weight: lighter ;
-    color: lightblue;
+    color: rosybrown;
     font-size: large;
 }
 h5{
@@ -90,7 +90,7 @@ h6{
 .messageInput{
     height: 200px;
     min-width: 200px;
-    width: auto;
+    max-width: 500px;
 }
 .formIntro{
     border-style: solid;
@@ -98,25 +98,33 @@ h6{
     border-color: white;
 }
 
-.wholeForm{
+/*.wholeForm{
     border-style: dotted;
     border-radius: 20px;
     border-color: white;
-}
+}*/
 
 .scallop-up {
     height: 100px;
     width: 100%;
   /*   background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, */
-    background-image: radial-gradient(50px at 50% 100%, white, white 49%, #A6A6A6 51%, #A6A6A6);
+    background-image: radial-gradient(50px at 50% 100%, black, black 49%, white 51%, white);
     background-size: 49px 100%;
   }
   
   .scallop-down {
     height: 100px;
     width: 100%;
-    background-image: radial-gradient(50px at 50% 0, white, white 49%, black 51%, black);
+    background-image: radial-gradient(50px at 50% 0, white, white 49%, lightgrey 51%, lightgrey);
+    background-size: 49px 100%;
+  }
+  .scallop-downtwo {
+    height: 100px;
+    width: 100%;
+    background-image: radial-gradient(50px at 50% 0, rosybrown, rosybrown 49%, white 51%, white);
     background-size: 49px 100%;
   }
 
-
+footer{
+    background-color: lightgrey;
+}
