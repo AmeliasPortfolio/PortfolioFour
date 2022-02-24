@@ -1,14 +1,35 @@
+header{
+    background-color: #A6A6A6;}
+    
 body{
-    background-color:#FBECEA;
+    background-image: linear-gradient(#A6A6A6, black);
 }
 
 a{
     text-decoration-color: #66899D;
     color: #66899D;
 }
+/* Centered text */
 
-h1,h2{
-    color:#66899D;
+ .myName {
+    font-family: 'Noto Serif Display', serif;
+    font-style: 'Semi-bold 600';
+    color:white;
+    font-size: xx-large;
+  }
+.webDev {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter ;
+    color:white;
+  }
+/*end centered text*/
+h1{
+    font-family: 'Noto Serif Display', serif;
+    font-style: 'Semi-bold 600';
+    color:white;
+    }
+h2{
+    color:black;
     margin-left: 50px;
     font-family: 'Poppins', sans-serif;
     font-weight: lighter ;
@@ -18,17 +39,84 @@ img[src*="book"]{ padding: 5%;
      
 }
 h3{
-    background-color: #F6E9ED;
     color: white;
-    border-style: solid;
-    border-color: white; 
     font-family: 'Poppins', sans-serif;
     font-weight: lighter ;
     padding-left: 5%;
+    font-size: 25px;
 }
 h4{
     font-family: 'Poppins', sans-serif;
     font-weight: lighter ;
-    color: #66899D;
+    color: lightblue;
     font-size: large;
 }
+h5{
+    color: black;
+    font-family: 'Noto Serif Display', serif;
+    font-style: 'Semi-bold 600';
+    font-size: 30px;
+}
+
+h6{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter ;
+    padding-left: 5%;
+    font-size: 15px;
+}
+
+.label{
+    color: black;
+    font-family: 'Noto Serif Display', serif;
+    font-style: 'Semi-bold 600';
+    font-size: 20px;
+    border-radius: 20px;
+    border-color: white;
+}
+.nameInput,
+.companyInput,
+.messageInput{
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid; 
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Noto Serif Display', serif;
+    font-style: 'Semi-bold 600';
+    font-size: 20px;
+}
+
+.messageInput{
+    height: 200px;
+    min-width: 200px;
+    width: auto;
+}
+.formIntro{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.wholeForm{
+    border-style: dotted;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.scallop-up {
+    height: 100px;
+    width: 100%;
+  /*   background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, */
+    background-image: radial-gradient(50px at 50% 100%, white, white 49%, #A6A6A6 51%, #A6A6A6);
+    background-size: 49px 100%;
+  }
+  
+  .scallop-down {
+    height: 100px;
+    width: 100%;
+    background-image: radial-gradient(50px at 50% 0, white, white 49%, black 51%, black);
+    background-size: 49px 100%;
+  }
+
+
