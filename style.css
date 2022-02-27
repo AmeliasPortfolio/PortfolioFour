@@ -1,22 +1,37 @@
 header{
-    background-color: white;}
-    
-body{
-    background-color: white;
+    background-color:rgba(255, 192, 203, 0.9);
+    position:fixed;
+    width:100%;
+    top:0px;
+    padding-left: 10%;}   
+.introButtons{
+    background-color:pink;
+    border-radius: 25px;
+    border-width: 5px;
+    text-decoration-color: white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter ;
+    padding-top: 1%;
+    padding-bottom:1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 25px;
+}
+a:hover{
+    background-color: rgb(132, 218, 218);
 }
 
-a{
-    text-decoration-color: #66899D;
-    color: #66899D;
+.my_intro{
+    padding:5%;
 }
-/* Centered text */
-
  .myName {
     font-family: 'Noto Serif Display', serif;
     font-style: 'Semi-bold 600';
     color:black;
     font-size: xx-large;
   }
+
 .webDev {
     font-family: 'Poppins', sans-serif;
     font-weight: lighter ;
@@ -24,7 +39,8 @@ a{
   }
 /*end centered text*/
 h1{
-    font-family: 'Noto Serif Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter ;
     font-style: 'Semi-bold 600';
     color:black;
     }
@@ -42,7 +58,6 @@ h3{
     color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: lighter ;
-    padding-left: 5%;
     font-size: 25px;
 }
 h4{
@@ -115,27 +130,45 @@ h6{
     border-color: white;
 }*/
 
-.scallop-up {
+/*.scallop-up {
     height: 100px;
     width: 100%;
-  /*   background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, */
-    background-image: radial-gradient(50px at 50% 100%, black, black 49%, white 51%, white);
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, 
+    background-image: radial-gradient(50px at 50% 100%, black, black 49%,white 51%, white);
     background-size: 49px 100%;
-  }
-  
-  .scallop-down {
+  }*/
+.scallop-down {
     height: 100px;
     width: 100%;
-    background-image: radial-gradient(50px at 50% 0, white, white 49%, lightgrey 51%, lightgrey);
+    background-image: radial-gradient(50px at 50% 0, #eeeaea, #eeeaea 49%, lightgrey 51%, lightgrey);
     background-size: 49px 100%;
   }
-  .scallop-downtwo {
+.scallop-downtwo {
     height: 100px;
     width: 100%;
-    background-image: radial-gradient(50px at 50% 0, rosybrown, rosybrown 49%, white 51%, white);
+    background-image: radial-gradient(50px at 50% 0, white, white 49%, #cecaca50 51%, #cecaca50);
     background-size: 49px 100%;
   }
-
+ 
 footer{
     background-color: lightgrey;
 }
+
+/* Split the screen in half */
+.split {
+    height: 50%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  /* Control the bottom color */
+.bottom {
+    bottom: 0;
+    background-color: #eeeaea;
+  }
+  
+/* Start stars*/
