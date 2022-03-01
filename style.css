@@ -26,16 +26,17 @@ a:hover{
     padding:5%;
 }
  .myName {
-    font-family: 'Noto Serif Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter ;
     font-style: 'Semi-bold 600';
-    color:black;
-    font-size: xx-large;
+    color:white;
+    font-size: 60px;
   }
 
 .webDev {
     font-family: 'Poppins', sans-serif;
     font-weight: lighter ;
-    color:black;
+    color:white;
   }
 /*end centered text*/
 h1{
@@ -143,12 +144,20 @@ h6{
     background-image: radial-gradient(50px at 50% 0, #eeeaea, #eeeaea 49%, lightgrey 51%, lightgrey);
     background-size: 49px 100%;
   }
-.scallop-downtwo {
+  .scallop-downtwo{
     height: 100px;
     width: 100%;
-    background-image: radial-gradient(50px at 50% 0, white, white 49%, #cecaca50 51%, #cecaca50);
+    background-image: radial-gradient(50px at 50% 0, white, white 49%, pink 51%, pink);
     background-size: 49px 100%;
   }
+
+.scallop-downthree{
+    height: 100px;
+    width: 100%;
+    background-image: radial-gradient(50px at 50% 0, pink, pink 49%, #cecaca50 51%, #cecaca50);
+    background-size: 49px 100%;
+  }
+
  
 footer{
     background-color: lightgrey;
@@ -165,10 +174,31 @@ footer{
     padding-top: 20px;
   }
 
+/*middle section intended for art pictures and corresponding background*/
+.middle{
+    background-color: pink;
+}
+
+.owl,
+.lion,
+.zebra{
+border-radius: 25px;
+padding:10px;
+}
+
+.owl,
+.zebra{
+    padding-right: 25%;
+}
+
+.lion{
+    padding-left:25%;
+}
+
   /* Control the bottom color */
 .bottom {
     bottom: 0;
     background-color: #eeeaea;
   }
   
-/* Start stars*/
+/
