@@ -150,13 +150,19 @@ h6{
 .scallop-downthree{
     height: 100px;
     width: 100%;
-    background-image: radial-gradient(50px at 50% 0, black, black 49%, #cecaca50 51%, #cecaca50);
+    background-image: radial-gradient(50px at 50% 0, black, black 49%, lightgrey 51%, lightgrey);
     background-size: 49px 100%;
   }
 
+  .scallop-downfour{
+    height: 100px;
+    width: 100%;
+    background-image: radial-gradient(50px at 50% 0, white, white 49%, pink 51%, pink);
+    background-size: 49px 100%;
+  }
  
 footer{
-    background-color: lightgrey;
+    background-color: pink;
 }
 
 /* Split the screen in half */
