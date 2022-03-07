@@ -30,14 +30,14 @@ a:hover{
     font-weight: lighter ;
     font-style: 'Semi-bold 600';
     color:white;
-    font-size: 60px;
+    /*font-size: 40px;*/
   }
 .midtext{
     font-family: 'Poppins', sans-serif;
     font-weight: lighter ;
     font-style: 'Semi-bold 600';
     color:white;
-    font-size: 30px;
+    font-size: 40px;
 }
 .webDev {
     font-family: 'Poppins', sans-serif;
@@ -156,7 +156,7 @@ h6{
 .scallop-downthree{
     height: 100px;
     width: 100%;
-    background-image: radial-gradient(50px at 50% 0, pink, pink 49%, #cecaca50 51%, #cecaca50);
+    background-image: radial-gradient(50px at 50% 0, black, black 49%, #cecaca50 51%, #cecaca50);
     background-size: 49px 100%;
   }
 
@@ -178,25 +178,32 @@ footer{
 
 /*middle section intended for art pictures and corresponding background*/
 .middle{
-    background-color: pink;
+    background-image: linear-gradient(pink,white, black) ;
 }
 
 .owl,
 .lion,
-.zebra{
+.zebra,
+.turtle,
+.tiger,
+.rhino{
 border-radius: 25px;
 padding:5px;
 border-style:double;
 border-color: #eeeaea;
 border-width: 2px;
+width:auto;
 }
 
 .owl,
-.zebra{
+.zebra,
+.tiger{
     margin-right: 20%;
 }
 
-.lion{
+.lion,
+.turtle,
+.rhino{
     margin-left:20%;
 }
 
@@ -233,3 +240,6 @@ body{
     font-family: 'Raleway', sans-serif;
   color: #000;    
   }
+
+  * {box-sizing:border-box}
+
