@@ -127,13 +127,20 @@ h6{
     border-color: white;
 }
 
-/*.scallop-up {
+.scallop-up {
     height: 100px;
     width: 100%;
-    background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, 
-    background-image: radial-gradient(50px at 50% 100%, black, black 49%,white 51%, white);
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40);
+    background-image: radial-gradient(50px at 50% 100%, white, white 49%,pink 51%, pink);
     background-size: 49px 100%;
-  }*/
+  }
+  .scallop-uptwo {
+    height: 100px;
+    width: 100%;
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40);
+    background-image: radial-gradient(50px at 50% 100%, white, white 49%,pink 51%, pink);
+    background-size: 49px 100%;
+  }
 .scallop-down {
     height: 100px;
     width: 100%;
@@ -160,11 +167,23 @@ h6{
     background-image: radial-gradient(50px at 50% 0, white, white 49%, pink 51%, pink);
     background-size: 49px 100%;
   }
- 
-footer{
-    background-color: pink;
+ .aboutintro{
+   background-color:pink;
+   font-family: 'Poppins', sans-serif;
+   font-weight: lighter ;
+   font-style: 'Semi-bold 600';
+   color:white;
+   font-size: 40px;
 }
 
+footer{
+    background-color: pink;
+   
+}
+.footertext{
+  margin-left:3%;
+  margin-bottom: 2%;;
+}
 /* Split the screen in half */
 .split {
     height: 50%;
@@ -178,7 +197,10 @@ footer{
 
 /*middle section intended for art pictures and corresponding background*/
 .middle{
-    background-image: linear-gradient(pink,white, black) ;
+    background-color: pink ;
+}
+.midtwo{
+  background-color:white;
 }
 
 .owl,
