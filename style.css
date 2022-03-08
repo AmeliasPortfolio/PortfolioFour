@@ -188,24 +188,33 @@ footer{
 .tiger,
 .rhino{
 border-radius: 25px;
-padding:5px;
+padding: 5px;
 border-style:double;
 border-color: #eeeaea;
 border-width: 2px;
-width:auto;
+margin: 5px;
 }
 
-.owl,
-.zebra,
-.tiger{
-    margin-right: 20%;
+.owl{
+  width: 45%;
+  margin-left:3.5%;
+}
+.zebra{
+  float:right;
+  width:45%;
+  margin-right:3.5%;
 }
 
-.lion,
-.turtle,
-.rhino{
-    margin-left:20%;
+.rhino,
+.tiger,
+.turtle{
+  width:30%;
 }
+
+.lion{
+  width:70%;
+}
+
 
   /* Control the bottom color */
 .bottom {
