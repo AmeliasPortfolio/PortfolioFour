@@ -1,11 +1,31 @@
 header{
-    background-color:rgba(255, 192, 203, 0.9);
-    position:fixed;
     width:100%;
-    top:0px;
-    padding-left: 10%;}   
+    
+  }  
+ .wholeForm{
+  background-image: linear-gradient(white,rgba(113, 148, 56, 0.452) );
+  } 
+    
+/*top text*/
+
+#containerone {
+  width:100%;
+  position: relative;
+}
+#imageone {
+  position: absolute;
+  width:100%;
+  z-index:-5;
+  
+}
+.headerButtons{
+  text-decoration-color: rgba(218, 188, 132, 0.493);
+  color: rgba(218, 188, 132, 0.493);
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter ;
+}
 .introButtons{
-    background-color:pink;
+    background-color:rgba(218, 188, 132, 0.493);
     border-radius: 25px;
     border-width: 5px;
     text-decoration-color: white;
@@ -16,34 +36,56 @@ header{
     padding-bottom:1%;
     padding-left: 5%;
     padding-right: 5%;
-    font-size: 25px;
+    font-size: 19px;
 }
 a:hover{
-    background-color: rgb(132, 218, 218);
+    background-color: rgba(218, 188, 132, 0.082);
 }
+/*end top text*/
 
-.my_intro{
+
+/*.my_intro{
     padding:5%;
-}
- .myName {
+}*/
+ 
+.myName {
     font-family: 'Poppins', sans-serif;
     font-weight: lighter ;
     font-style: 'Semi-bold 600';
-    color:white;
-    /*font-size: 40px;*/
+    color:rgba(218, 188, 132);
+    font-size:40px;
+    top: 10%;
   }
+
+  .myDescription {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter ;
+    color:rgba(218, 188, 132);    
+    font-size: smaller;
+    top:20%;
+  }
+
 .midtext{
     font-family: 'Poppins', sans-serif;
     font-weight: lighter ;
     font-style: 'Semi-bold 600';
-    color:white;
+    color:rgba(113, 148, 56, 0.452) ;
     font-size: 40px;
 }
-.webDev {
-    font-family: 'Poppins', sans-serif;
-    font-weight: lighter ;
-    color:white;
-  }
+.middle{
+  background-color: rgb(255, 255, 255) ;
+}
+
+.vidpics{
+  border-style: double;
+  border-color: bisque;
+  border-radius: 10px;
+}
+
+.midtwo{
+  background-color:white;
+}
+
 /*end centered text*/
 h1{
     font-family: 'Poppins', sans-serif;
@@ -53,7 +95,6 @@ h1{
     }
 h2{
     color:black;
-    margin-left: 50px;
     font-family: 'Poppins', sans-serif;
     font-weight: lighter ;
     }
@@ -92,68 +133,51 @@ h6{
     border-radius: 20px;
     border-color: white;
 }
-.nameInput,
-.companyInput,
-.messageInput{
-    border-radius: 10px;
-    border-color: white;
-    border-style: solid; 
-    background-color: whitesmoke;
-    color: black;
-    font-family: 'Noto Serif Display', serif;
-    font-style: 'Semi-bold 600';
-    font-size: 20px;
+/*namescallop*/
+.scallop-downname{
+  height: 50px;
+  width: 100%;
+  background-image: radial-gradient(50px at 50% 0, white, white 49%, rgba(88, 146, 40, 0.418) 51%, rgba(88, 146, 40, 0.418));
+  background-size: 49px 100%;
 }
-.contactName,
-.contactComment{
-    border-radius: 10px;
-    border-color: white;
-    border-style: solid; 
-    background-color: whitesmoke;
-    color: black;
-    font-family: 'Noto Serif Display', serif;
-    font-style: 'Semi-bold 600';
-    font-size: 20px;
+.scallop-upname{
+  height: 50px;
+  width: 100%;
+  background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40);
+  background-image: radial-gradient(50px at 50% 100%, white, white 49%,rgba(88, 146, 40, 0.418) 51%,rgba(88, 146, 40, 0.418));
+  background-size: 49px 100%;
 }
-
-.messageInput{
-    height: 200px;
-    min-width: 200px;
-    max-width: 500px;
+/*1st scallops*/
+.scallop-downone{
+  height: 50px;
+  width: 100%;
+  background-image: radial-gradient(50px at 50% 0, white, white 49%, rgba(88, 146, 40, 0.418) 51%, rgba(88, 146, 40, 0.418));
+  background-size: 49px 100%;
 }
-.formIntro{
-    border-style: solid;
-    border-radius: 20px;
-    border-color: white;
-}
-
-.scallop-up {
-    height: 100px;
+.scallop-upone{
+    height: 50px;
     width: 100%;
     background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40);
-    background-image: radial-gradient(50px at 50% 100%, white, white 49%,pink 51%, pink);
+    background-image: radial-gradient(50px at 50% 100%, white, white 49%,rgba(88, 146, 40, 0.418) 51%, rgba(88, 146, 40, 0.418));
     background-size: 49px 100%;
   }
+ 
+/*2nd scallop*/
   .scallop-uptwo {
     height: 100px;
     width: 100%;
     background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40);
-    background-image: radial-gradient(50px at 50% 100%, white, white 49%,pink 51%, pink);
-    background-size: 49px 100%;
-  }
-.scallop-down {
-    height: 100px;
-    width: 100%;
-    background-image: radial-gradient(50px at 50% 0, #eeeaea, #eeeaea 49%, lightgrey 51%, lightgrey);
-    background-size: 49px 100%;
-  }
-  .scallop-downtwo{
-    height: 100px;
-    width: 100%;
-    background-image: radial-gradient(50px at 50% 0, white, white 49%, pink 51%, pink);
+    background-image: radial-gradient(50px at 50% 100%, white, white 49%,rgba(88, 146, 40, 0.418) 51%, rgba(88, 146, 40, 0.418));
     background-size: 49px 100%;
   }
 
+  .scallop-downtwo{
+    height: 100px;
+    width: 100%;
+    background-image: radial-gradient(50px at 50% 0, white, white 49%, rgba(88, 146, 40, 0.418) 51%, rgba(88, 146, 40, 0.418));
+    background-size: 49px 100%;
+  }
+/*3rd scallop*/
 .scallop-downthree{
     height: 100px;
     width: 100%;
@@ -164,11 +188,11 @@ h6{
   .scallop-downfour{
     height: 100px;
     width: 100%;
-    background-image: radial-gradient(50px at 50% 0, white, white 49%, pink 51%, pink);
+    background-image: radial-gradient(50px at 50% 0, white, white 49%, rgba(88, 146, 40, 0.418) 51%, rgba(88, 146, 40, 0.418));
     background-size: 49px 100%;
   }
  .aboutintro{
-   background-color:pink;
+   background-color:rgba(88, 146, 40, 0.418);
    font-family: 'Poppins', sans-serif;
    font-weight: lighter ;
    font-style: 'Semi-bold 600';
@@ -176,113 +200,27 @@ h6{
    font-size: 40px;
 }
 
-footer{
-    background-color: pink;
-   
-}
-.footertext{
-  margin-left:3%;
-  margin-bottom: 2%;;
-}
-/* Split the screen in half */
-.split {
-    height: 50%;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
 
 /*middle section intended for art pictures and corresponding background*/
-.middle{
-    background-color: pink ;
-}
-.midtwo{
-  background-color:white;
-}
 
-.owl,
-.lion,
-.zebra,
-.turtle,
-.tiger,
-.rhino{
-border-radius: 25px;
-padding: 4px;
-border-style:double;
-border-color: #eeeaea;
-border-width: 2px;
-margin: 4px;
-}
-
-.owl{
-  width: 45%;
-  /*margin-left:3.5%;*/
-  max-width:450px;
-  max-height:90%;
-}
-.zebra{
-  /*float:right;*/
-  width:45%;
-  /*margin-right:3.5%;*/
-  max-width:450px;
-  max-height:90%;
-}
-.rhino{
-  float:right;
-}
-.turtle{
-  float:left;
-  margin-right:4%;
-}
-
-.rhino,
-.tiger,
-.turtle{
-  width:29%;
-}
-.lion{
-  width:70%;
-  max-width:420px;
-  max-height:90%;
-}
 
 
   /* Control the bottom color */
 .bottom {
     bottom: 0;
-    background-color: #eeeaea;
+    background-color: white;
   }
+
+
+footer{
+  background-color: rgba(255, 255, 255, 0.192) ;
+}
+.footertext{
+margin-bottom: 2%;
+color:rgba(69, 83, 59, 0.747);
+}
   
 /*background design
 body{
     background:pink(231, 176, 176);
   }*/
-  /* customizable snowflake styling */
-  .snowflake {
-    color: rgb(255, 255, 255);
-    font-size: 1em;
-    font-family: Arial;
-    text-shadow: 0 0 1px #000;
-    
-  }
-  /*
-  @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
-  /* Demo Purpose Only
-  .demo {
-    font-family: 'Raleway', sans-serif;
-    color:#fff;
-      display: block;
-      margin: 0 auto;
-      padding: 15px 0;
-      text-align: center;
-  }
-  .demo a{
-    font-family: 'Raleway', sans-serif;
-  color: #000;    
-  }
-
-  * {box-sizing:border-box}
-*/
