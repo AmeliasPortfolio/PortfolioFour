@@ -3,6 +3,14 @@
 
   <!--Head-->
   <head>
+    <!--HAMBURGER-->
+    <script>
+    function menuOnClick() {
+      document.getElementById("menu-bar").classList.toggle("change");
+      document.getElementById("nav").classList.toggle("change");
+      document.getElementById("menu-bg").classList.toggle("change-bg");
+    }</script>
+    <!--END HAMMY-->
       <link href="style.css" rel="stylesheet">
       <link rel="preconnect" href="https://fonts.googleapis.com"> 
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -14,37 +22,49 @@
 
   <!--Header-->
   <header>    
-    <div >
-      <center><p class="header">AMELIA.COFFEE</p></center>
-      <center><h6 class="headerdescription"> (Art Confessions Of A Coffee Addict) </h6></center>
+    <div>
+      <center><h1>AMELIA.COFFEE</h1></center>
+      <center><h6> (Art Confessions Of A Coffee Addict)</h6></center>
     </div>
   </header> 
  
   <!-- Body-->
   <body><br><br><br><br>
-      <center>
-      <table class="nav">
+
+    <!--HAMBURGER-->
+
+<div id="menu">
+  <div id="menu-bar" onclick="menuOnClick()">
+    <div id="bar1" class="bar"></div>
+    <div id="bar2" class="bar"></div>
+    <div id="bar3" class="bar"></div>
+  </div>
+  <nav class="nav" id="nav">
+    <ul>
+      <li>
         <!--instagram-->
-        <tr>
-       <th >
-          <a href="https://www.instagram.com/notameliasartstuff" class="h6link">INSTAGRAM</a> 
-       </th>
+        <a href="https://www.instagram.com/notameliasartstuff" target="_blank" >INSTAGRAM</a> 
+      </li>
+      <li>
         <!--procreate brushes-->
-        <th>
-          <a href="https://apps.apple.com/us/app/brushes-for-procreate/id1507750565" class="h6link">PROCREATE BRUSHES APP</a> 
-        </th>
-       <!--contact-->
-        <th>
-          <a href="mailto:ameliatorresh@yahoo.com"class="h6link">LET'S TALK!</a>
-        </th>
-      </tr>
-      </table><br><br><br>
-     </center>
+        <a href="https://apps.apple.com/us/app/brushes-for-procreate/id1507750565" target="_blank">PROCREATE <BR> BRUSHES APP</a> 
+      </li>
+      <li><!--contact-->
+        <a href="mailto:ameliatorresh@yahoo.com">LET'S TALK!</a>
+      </li>
+      <!--<li><a href="#">Blog</a></li>-->
+    </ul>
+  </nav> 
+</div>
+
+<div class="menu-bg" id="menu-bg"></div>
+    <!--END HAMBURGER-->
   </body>
 
   <body>
     <!--1st row-->
     <center>
+      <h2> RECENT VIDEOS </h2>
       <table>
         <tr>
           <td>
@@ -84,7 +104,7 @@
     </center><br><br>
     <!--4th row-->
     <center>
-            <a href="https://youtube.com/ameliaart" class="channelbutton">CHECK OUT THE CHANNEL</a>
+            <a href="https://youtube.com/ameliaart" class="channelbutton" target="_blank">CHECK OUT THE CHANNEL</a>
     </center><br> <br>
    
     <center>
@@ -95,11 +115,11 @@
     <footer >
       <!-- working-->
       <div class="footer">
-        <center><h6></h6>
-        <a href="mailto:ameliatorresh@yahoo.com" class="lastlink"> CONTACT</a><br>
-        Designed By Amelia :)<br>
-        © 2022 AMELIA TORRES <br>
-       </h6></center>
+        <center>
+        <h5><a href="mailto:ameliatorresh@yahoo.com" class="lastlink"> CONTACT</a><br>
+        Designed By Amelia :) <br>
+        © 2022 AMELIA TORRES <br></h5> 
+       </center>
       </div>
      </footer>
   </body>

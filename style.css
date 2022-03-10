@@ -1,6 +1,6 @@
 /*BUTTONS*/
 .introButtons{
-    background-color:rgba(218, 188, 132, 0.493);
+    background-color:rgba(188, 143, 143, 0.541);
     border-radius: 25px;
     border-width: 5px;
     text-decoration-color: white;
@@ -15,7 +15,7 @@
 }
 
 .channelbutton{
-  background-color:rgba(218, 188, 132, 0.493);
+  background-color: rgba(188, 143, 143, 0.541);
   border-radius: 25px;
   border-width: 5px;
   text-decoration-color: white;
@@ -24,13 +24,13 @@
   font-weight: lighter ;
   padding-top: 1%;
   padding-bottom:1%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   font-size: 19px;
 }
 
 a:hover{
-    background-color: rgba(218, 188, 132, 0.747);
+    background-color: rgba(218, 188, 132, 0.589);
 }
 
 .booklink{
@@ -46,12 +46,16 @@ h1{
   font-weight: lighter ;
   font-style: 'Semi-bold 600';
   color:black;
+  font-size: 30px;  
   }
+
 h2{
-  color:black;
-  margin-left: 50px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: lighter ;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter ;
+    color: rosybrown;
+    font-size: 30px;
+    letter-spacing: 8px;
+    font-weight: 800;
   }
 
 h3{
@@ -60,26 +64,30 @@ h3{
   font-weight: lighter ;
   font-size: 25px;
 }
+
 h4{
+  color:black;
   font-family: 'Poppins', sans-serif;
   font-weight: lighter ;
-  color: rosybrown;
-  font-size: large;
-}
+  font-style: 'Semi-bold 600';
+  }
+
 h5{
   color: black;
-  font-family: 'Noto Serif Display', serif;
-  font-style: 'Semi-bold 600';
-  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter ;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 5px;
 }
 
 h6{
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    font-weight: lighter ;
-    font-size: 15px;
-    
+  color:rgba(69, 83, 59, 0.747);
+  font-size: smaller;
+  font-weight: lighter ;
+  font-size: 12px;
 }
+/*links*/
 
 .h6link{
   color: black;
@@ -97,26 +105,19 @@ h6{
   font-weight: lighter ;
   font-size: 15px;
   text-decoration: none;
-  padding: 5px;
+  line-height: 3px;
 }
+
 /*HEADER TEXT AND STYLE*/
 
-.header{
-font-family: 'Noto Serif Display', serif;
-font-weight: lighter ;
-font-style: 'Semi-bold 600';
-color:black;
-font-size: xx-large;
-}
 
-.headerdescription{
-  color:rgba(69, 83, 59, 0.747);
-  font-size: smaller;
-  }
- 
-  .nav {
+header{
+line-height:3px;
+}
+  .navi {
     display: inline;
     list-style-type: none;
+    white-space: nowrap;
   }
 
 .videostable{
@@ -131,17 +132,12 @@ font-size: xx-large;
 /*BODY*/
 body{
   background-color: rgb(255, 249, 241);
-  padding: 30px;
+  padding: 5px;
 }
 
 
 
 /* Control the bottom color */
-
-.footertext{
-margin-bottom: 2%;
-color:rgb(255, 255, 255);
-}
 
 #footer {
   position:absolute;
@@ -149,4 +145,105 @@ color:rgb(255, 255, 255);
   width:100%;
   height:60px;   /* Height of the footer */
   background:#6cf;
+  line-height: 3px;
+}
+
+/*HAMBURGER
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #6C7A86 ;
+}*/
+
+#menu {
+  z-index: 2;
+}
+
+#menu-bar {
+  width: 45px;
+  height: 40px;
+  margin: 30px 0 20px 20px;
+  cursor: pointer;
+}
+
+.bar {
+  height: 3px;
+  width: 100%;
+  background-color: #36573cb9;
+  display: block;
+  border-radius: 5px;
+  transition: 1s ease;
+}
+
+#bar1 {
+  transform: translateY(-4px);
+}
+
+#bar3 {
+  transform: translateY(4px);
+}
+
+.nav {
+  transition: 1s ease;
+  display: none;
+}
+
+.nav ul {
+  padding: 0 22px;
+}
+
+.nav li {
+  list-style: none;
+  padding: 12px 0;
+}
+
+.nav li a {
+  color: rosybrown;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  font-weight: bold;
+}
+
+.menu-bg, #menu {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.menu-bg {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: 5px 0 15px 20px;
+  background: radial-gradient(circle, #eec89c9c, #eec89c88);
+  border-radius: 50%;
+  transition: .1s ease;
+}
+
+.change {
+  display: block;
+}
+
+.change .bar {
+  background-color: rosybrown;
+}
+
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+  opacity: 0;
+}
+
+.change #bar3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+  width: 530px;
+  height: 460px;
+  transform: translate(-60%,-30%);
 }
