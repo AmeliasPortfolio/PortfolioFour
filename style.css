@@ -1,29 +1,4 @@
-header{
-    width:100%;
-    
-  }  
- .wholeForm{
-  background-image: linear-gradient(white,rgba(113, 148, 56, 0.452) );
-  } 
-    
-/*top text*/
-
-#containerone {
-  width:100%;
-  position: relative;
-}
-#imageone {
-  position: absolute;
-  width:100%;
-  z-index:-5;
-  
-}
-.headerButtons{
-  text-decoration-color: rgba(218, 188, 132, 0.493);
-  color: rgba(218, 188, 132, 0.493);
-  font-family: 'Poppins', sans-serif;
-  font-weight: lighter ;
-}
+/*BUTTONS*/
 .introButtons{
     background-color:rgba(218, 188, 132, 0.493);
     border-radius: 25px;
@@ -39,188 +14,93 @@ header{
     font-size: 19px;
 }
 a:hover{
-    background-color: rgba(218, 188, 132, 0.082);
+    background-color: rgba(218, 188, 132, 0.747);
 }
-/*end top text*/
-
-
-/*.my_intro{
-    padding:5%;
-}*/
- 
-.myName {
-    font-family: 'Poppins', sans-serif;
-    font-weight: lighter ;
-    font-style: 'Semi-bold 600';
-    color:rgba(218, 188, 132);
-    font-size:40px;
-    top: 10%;
-  }
-
-  .myDescription {
-    font-family: 'Poppins', sans-serif;
-    font-weight: lighter ;
-    color:rgba(218, 188, 132);    
-    font-size: smaller;
-    top:20%;
-  }
-
-.midtext{
-    font-family: 'Poppins', sans-serif;
-    font-weight: lighter ;
-    font-style: 'Semi-bold 600';
-    color:rgba(113, 148, 56, 0.452) ;
-    font-size: 40px;
-}
-.middle{
-  background-color: rgb(255, 255, 255) ;
-}
-
-.vidpics{
-  border-style: double;
-  border-color: bisque;
-  border-radius: 10px;
-}
-
-.midtwo{
-  background-color:white;
-}
-
-/*end centered text*/
+/*HEADER STYLES*/
 h1{
-    font-family: 'Poppins', sans-serif;
-    font-weight: lighter ;
-    font-style: 'Semi-bold 600';
-    color:black;
-    }
+  font-family: 'Noto Serif Display', serif;
+  font-weight: lighter ;
+  font-style: 'Semi-bold 600';
+  color:black;
+  }
 h2{
-    color:black;
-    font-family: 'Poppins', sans-serif;
-    font-weight: lighter ;
-    }
+  color:black;
+  margin-left: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter ;
+  }
 
 h3{
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    font-weight: lighter ;
-    font-size: 25px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter ;
+  font-size: 25px;
 }
 h4{
-    font-family: 'Poppins', sans-serif;
-    font-weight: lighter ;
-    color: rosybrown;
-    font-size: large;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter ;
+  color: rosybrown;
+  font-size: large;
 }
 h5{
-    color: black;
-    font-family: 'Noto Serif Display', serif;
-    font-style: 'Semi-bold 600';
-    font-size: 30px;
+  color: black;
+  font-family: 'Noto Serif Display', serif;
+  font-style: 'Semi-bold 600';
+  font-size: 30px;
 }
 
 h6{
-    color: white;
+    color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: lighter ;
     font-size: 15px;
 }
+/*HEADER TEXT AND STYLE*/
 
-.label{
-    color: black;
-    font-family: 'Noto Serif Display', serif;
-    font-style: 'Semi-bold 600';
-    font-size: 20px;
-    border-radius: 20px;
-    border-color: white;
-}
-/*namescallop*/
-.scallop-downname{
-  height: 50px;
-  width: 100%;
-  background-image: radial-gradient(50px at 50% 0, white, white 49%, rgba(88, 146, 40, 0.418) 51%, rgba(88, 146, 40, 0.418));
-  background-size: 49px 100%;
-}
-.scallop-upname{
-  height: 50px;
-  width: 100%;
-  background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40);
-  background-image: radial-gradient(50px at 50% 100%, white, white 49%,rgba(88, 146, 40, 0.418) 51%,rgba(88, 146, 40, 0.418));
-  background-size: 49px 100%;
-}
-/*1st scallops*/
-.scallop-downone{
-  height: 50px;
-  width: 100%;
-  background-image: radial-gradient(50px at 50% 0, white, white 49%, rgba(88, 146, 40, 0.418) 51%, rgba(88, 146, 40, 0.418));
-  background-size: 49px 100%;
-}
-.scallop-upone{
-    height: 50px;
-    width: 100%;
-    background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40);
-    background-image: radial-gradient(50px at 50% 100%, white, white 49%,rgba(88, 146, 40, 0.418) 51%, rgba(88, 146, 40, 0.418));
-    background-size: 49px 100%;
-  }
- 
-/*2nd scallop*/
-  .scallop-uptwo {
-    height: 100px;
-    width: 100%;
-    background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40);
-    background-image: radial-gradient(50px at 50% 100%, white, white 49%,rgba(88, 146, 40, 0.418) 51%, rgba(88, 146, 40, 0.418));
-    background-size: 49px 100%;
-  }
-
-  .scallop-downtwo{
-    height: 100px;
-    width: 100%;
-    background-image: radial-gradient(50px at 50% 0, white, white 49%, rgba(88, 146, 40, 0.418) 51%, rgba(88, 146, 40, 0.418));
-    background-size: 49px 100%;
-  }
-/*3rd scallop*/
-.scallop-downthree{
-    height: 100px;
-    width: 100%;
-    background-image: radial-gradient(50px at 50% 0, black, black 49%, lightgrey 51%, lightgrey);
-    background-size: 49px 100%;
-  }
-
-  .scallop-downfour{
-    height: 100px;
-    width: 100%;
-    background-image: radial-gradient(50px at 50% 0, white, white 49%, rgba(88, 146, 40, 0.418) 51%, rgba(88, 146, 40, 0.418));
-    background-size: 49px 100%;
-  }
- .aboutintro{
-   background-color:rgba(88, 146, 40, 0.418);
-   font-family: 'Poppins', sans-serif;
-   font-weight: lighter ;
-   font-style: 'Semi-bold 600';
-   color:white;
-   font-size: 40px;
+.header{
+font-family: 'Noto Serif Display', serif;
+font-weight: lighter ;
+font-style: 'Semi-bold 600';
+color:black;
+font-size: xx-large;
 }
 
+.headerdescription{
+  color:rgba(69, 83, 59, 0.747);
+  font-size: smaller;
+  }
 
-/*middle section intended for art pictures and corresponding background*/
+.navigation{
+  color: black;
+  text-decoration: none;
+  margin:20%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter ;
+  font-size: 15px;
 
+}
+.videostable{
+  margin:5%;
+}
 
+.thumbnail{
+  border-radius: 5%;
+  border-style:hidden;
+}
 
-  /* Control the bottom color */
+/*BODY*/
+body{
+  background-color: rgb(255, 249, 241);
+}
+
+/* Control the bottom color */
 .bottom {
     bottom: 0;
     background-color: white;
   }
-
-
-footer{
-  background-color: rgba(255, 255, 255, 0.192) ;
-}
+  
 .footertext{
 margin-bottom: 2%;
 color:rgba(69, 83, 59, 0.747);
 }
   
-/*background design
-body{
-    background:pink(231, 176, 176);
-  }*/
