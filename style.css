@@ -13,6 +13,21 @@
     padding-right: 5%;
     font-size: 19px;
 }
+
+.channelbutton{
+  background-color:rgba(218, 188, 132, 0.493);
+  border-radius: 25px;
+  border-width: 5px;
+  text-decoration-color: white;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter ;
+  padding-top: 1%;
+  padding-bottom:1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 19px;
+}
 a:hover{
     background-color: rgba(218, 188, 132, 0.747);
 }
