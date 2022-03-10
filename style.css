@@ -122,6 +122,7 @@ font-size: xx-large;
 /*BODY*/
 body{
   background-color: rgb(255, 249, 241);
+  padding: 30px;
 }
 
 
