@@ -120,13 +120,16 @@ line-height:3px;
     white-space: nowrap;
   }
 
+/*
 .videostable{
   margin:5%;
-}
+}*/
 
 .thumbnail{
   border-radius: 5%;
   border-style:hidden;
+  width:auto;
+  margin:4px;
 }
 
 /*BODY*/
@@ -135,6 +138,7 @@ body{
   padding: 5px;
 }
 
+/*video table*/
 
 
 /* Control the bottom color */
