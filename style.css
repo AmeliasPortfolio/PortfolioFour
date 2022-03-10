@@ -107,7 +107,7 @@ font-size: xx-large;
   .nav {
     display: inline;
     list-style-type: none;
-    
+    white-space: normal;
   }
 
 .videostable{
