@@ -84,15 +84,23 @@ font-size: xx-large;
   color:rgba(69, 83, 59, 0.747);
   font-size: smaller;
   }
+ 
+  .nav {
+    display: inline;
+    list-style-type: none;
+  }
 
 .navigation{
   color: black;
   text-decoration: none;
-  margin:20%;
+  margin:10px;
   font-family: 'Poppins', sans-serif;
   font-weight: lighter ;
   font-size: 15px;
-  padding:4px;
+  display: block;
+  padding: 8px;
+ background-color: #f8dddd;
+
 
 }
 .videostable{
