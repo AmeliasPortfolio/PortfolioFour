@@ -31,6 +31,14 @@
 a:hover{
     background-color: rgba(218, 188, 132, 0.747);
 }
+
+.booklink{
+  color:black;
+  margin-left: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter ;
+}
+
 /*HEADER STYLES*/
 h1{
   font-family: 'Noto Serif Display', serif;
@@ -70,6 +78,13 @@ h6{
     font-weight: lighter ;
     font-size: 15px;
 }
+
+.h6link{
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter ;
+  font-size: 15px;
+}
 /*HEADER TEXT AND STYLE*/
 
 .header{
@@ -100,8 +115,6 @@ font-size: xx-large;
   display: block;
   padding: 8px;
  background-color: #f8dddd;
-
-
 }
 .videostable{
   margin:5%;
@@ -117,14 +130,19 @@ body{
   background-color: rgb(255, 249, 241);
 }
 
+
+
 /* Control the bottom color */
-.bottom {
-    bottom: 0;
-    background-color: white;
-  }
-  
+
 .footertext{
 margin-bottom: 2%;
-color:rgba(69, 83, 59, 0.747);
+color:rgb(255, 255, 255);
 }
-  
+
+#footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;   /* Height of the footer */
+  background:#6cf;
+}
