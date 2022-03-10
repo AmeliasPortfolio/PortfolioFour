@@ -1,5 +1,5 @@
 /*BUTTONS*/
-.introButtons{
+.buttons{
     background-color:rgba(188, 143, 143, 0.541);
     border-radius: 25px;
     border-width: 5px;
@@ -14,22 +14,7 @@
     font-size: 19px;
 }
 
-.channelbutton{
-  background-color: rgba(188, 143, 143, 0.541);
-  border-radius: 25px;
-  border-width: 5px;
-  text-decoration-color: white;
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  font-weight: lighter ;
-  padding-top: 1%;
-  padding-bottom:1%;
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size: 19px;
-}
-
-a:hover{
+.buttons:hover{
     background-color: rgba(218, 188, 132, 0.589);
 }
 
@@ -43,18 +28,17 @@ a:hover{
 /*HEADER STYLES*/
 h1{
   font-family: 'Noto Serif Display', serif;
-  font-weight: lighter ;
-  font-style: 'Semi-bold 600';
-  color:black;
+  font-weight: heavier ;
+  color:rgb(255, 255, 255);
   font-size: 30px;  
   }
 
 h2{
     font-family: 'Poppins', sans-serif;
     font-weight: lighter ;
-    color: rosybrown;
+    color: rgb(0, 0, 0);
     font-size: 30px;
-    letter-spacing: 8px;
+    letter-spacing: 12px;
     font-weight: 800;
   }
 
@@ -67,9 +51,9 @@ h3{
 
 h4{
   color:black;
-  font-family: 'Poppins', sans-serif;
   font-weight: lighter ;
   font-style: 'Semi-bold 600';
+  font-style: 'Noto Serif Display';
   }
 
 h5{
@@ -86,6 +70,7 @@ h6{
   font-size: smaller;
   font-weight: lighter ;
   font-size: 12px;
+  
 }
 /*links*/
 
@@ -113,12 +98,23 @@ h6{
 
 header{
 line-height:3px;
+
 }
   .navi {
     display: inline;
     list-style-type: none;
     white-space: nowrap;
   }
+
+.toppart{
+  background-color: rgb(255, 255, 255);
+}
+
+
+hr.solid {
+  border-top: 2px solid rgb(247, 208, 172);
+  width: 40%;
+}
 
 /*
 .videostable{
@@ -134,7 +130,7 @@ line-height:3px;
 
 /*BODY*/
 body{
-  background-color: rgb(255, 249, 241);
+  background-color: rgb(248, 176, 142);
   padding: 5px;
 }
 
@@ -143,14 +139,6 @@ body{
 
 /* Control the bottom color */
 
-#footer {
-  position:absolute;
-  bottom:0;
-  width:100%;
-  height:60px;   /* Height of the footer */
-  background:#6cf;
-  line-height: 3px;
-}
 
 /*HAMBURGER
 body {
@@ -172,7 +160,7 @@ body {
 .bar {
   height: 3px;
   width: 100%;
-  background-color: #36573cb9;
+  background-color: #fff5ecb9;
   display: block;
   border-radius: 5px;
   transition: 1s ease;
@@ -202,7 +190,7 @@ body {
 
 .nav li a {
   color: rosybrown;
-  font-size: 20px;
+  font-size: 15px;
   text-decoration: none;
 }
 
@@ -220,8 +208,8 @@ body {
   z-index: 1;
   width: 0;
   height: 0;
-  margin: 5px 0 15px 20px;
-  background: radial-gradient(circle, #eec89c9c, #eec89c88);
+  margin: 5px 0 15px 10px;
+  background: radial-gradient(circle, #fae6d0e7, #faebd9d7);
   border-radius: 50%;
   transition: .1s ease;
 }
