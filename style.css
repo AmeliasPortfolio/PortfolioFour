@@ -1,6 +1,6 @@
 /*BUTTONS*/
 .buttons{
-    background-color:rgba(188, 143, 143, 0.541);
+    background-color:rgb(0, 0, 0);
     border-radius: 25px;
     border-width: 5px;
     text-decoration-color: white;
@@ -68,7 +68,7 @@ h5{
 }
 
 h6{
-  color:rgba(69, 83, 59, 0.747);
+  color:rgba(0, 0, 0, 0.747);
   font-size: 20px;
   
 }
@@ -121,7 +121,7 @@ line-height:3px;
 
 
 hr.solid {
-  border-top: 2px solid rgb(247, 208, 172);
+  border-top: 2px solid rgb(0, 0, 0);
   width: 40%;
 }
 
@@ -140,13 +140,13 @@ hr.solid {
 
 /*BODY*/
 body{
-  background-color: rgb(248, 176, 142);
+  background-color: rgb(197, 48, 48);
   padding: 5px;
 }
 
 
 footer{ 
-  bottom: 0; 
+  bottom: 0;
 }
 
 /*video table*/
