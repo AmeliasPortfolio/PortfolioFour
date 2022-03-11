@@ -138,12 +138,8 @@ body{
 }
 
 
-.footer{ 
-  position: fixed; 
+#footer{ 
   bottom: 0; 
-  left: 0; 
-  right: 0; 
-  height: 50px; 
 }
 
 /*video table*/
