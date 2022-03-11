@@ -72,7 +72,14 @@ h6{
   font-size: 20px;
   
 }
+p{
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
 
+.aboutme{
+  max-width: 70%;
+}
 /*links*/
 
 .h6link{
