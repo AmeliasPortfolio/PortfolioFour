@@ -12,6 +12,7 @@
     padding-left: 5%;
     padding-right: 5%;
     font-size: 19px;
+    height:auto;
 }
 
 .buttons:hover{
@@ -30,7 +31,8 @@ h1{
   font-family: 'Noto Serif Display', serif;
   font-weight: heavier ;
   color:rgb(255, 255, 255);
-  font-size: 30px;  
+  font-size: auto;  
+  font-size:xx-large;
   }
 
 h2{
@@ -46,7 +48,7 @@ h3{
   color: black;
   font-family: 'Poppins', sans-serif;
   font-weight: lighter ;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 h4{
@@ -67,9 +69,9 @@ h5{
 
 h6{
   color:rgba(69, 83, 59, 0.747);
-  font-size: smaller;
   font-weight: lighter ;
-  font-size: 12px;
+  font-size: smaller;
+  font-size: auto;
   
 }
 /*links*/
@@ -108,12 +110,17 @@ line-height:3px;
 
 .toppart{
   background-color: rgb(255, 255, 255);
+  height:90%;
 }
 
 
 hr.solid {
   border-top: 2px solid rgb(247, 208, 172);
   width: 40%;
+}
+
+.footer{
+  margin-bottom: 0px;
 }
 
 /*
@@ -213,6 +220,7 @@ body {
   border-radius: 50%;
   transition: .1s ease;
 }
+
 
 .change {
   display: block;
