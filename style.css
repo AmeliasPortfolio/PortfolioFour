@@ -19,12 +19,6 @@
     background-color: rgba(218, 188, 132, 0.589);
 }
 
-.booklink{
-  color:black;
-  margin-left: 50px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: lighter ;
-}
 
 /*HEADER STYLES*/
 h1{
@@ -75,6 +69,7 @@ h6{
 p{
   color: black;
   font-family: 'Poppins', sans-serif;
+  font-weight: lighter ;
 }
 
 .aboutme{
@@ -92,14 +87,17 @@ p{
   margin: 5px;
 }
 
-.lastlink{
-  color: black;
+.booklink{
+  color:black;
+  margin-left: 50px;
   font-family: 'Poppins', sans-serif;
   font-weight: lighter ;
-  font-size: 15px;
-  text-decoration: none;
-  line-height: 3px;
 }
+/*link in link*/
+.linkedlink{
+  color:rgb(0, 0, 0);
+}
+
 
 /*HEADER TEXT AND STYLE*/
 
@@ -108,7 +106,8 @@ header{
 line-height:3px;
 
 }
-  .navi {
+
+.navi {
     display: inline;
     list-style-type: none;
     white-space: nowrap;
@@ -255,3 +254,32 @@ body {
   height: 460px;
   transform: translate(-60%,-30%);
 }
+
+
+/*animated*/
+/*begin smooth animation 1*/
+
+.smoothed-out {
+  overflow: hidden;
+  border-right: .15em solid rgb(0, 0, 0);
+  font-size: 1.6rem;
+  width: 0;
+  line-height: 20px;
+}
+.onecontainer {
+  display: inline-block;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+.smoothed-out{
+  overflow: hidden;
+  border-right: .15em solid rgb(197, 48, 48);
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation: typing 4s forwards;
+  padding: 1%;
+}
+/*end smooth animation*/
