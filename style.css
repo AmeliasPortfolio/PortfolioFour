@@ -1,52 +1,120 @@
+body {
+  background-color: #000000;
+  height: 100%;
+}
+header{
+  visibility: hidden;
+}
+footer{
+  z-index:10;
+  margin-bottom: 0%;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    visibility: visible;
+  }
+  h1{
+    font-family: 'Rochester', cursive; 
+    font-size:large; 
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    margin: 1px;
+  }
+  
+  h2{
+      font-family: 'Poppins', sans-serif;
+      font-weight: lighter ;
+      color: rgb(255, 255, 255);
+      font-size: 8px;
+      letter-spacing: 2px;
+      font-weight: 800;
+      margin: 1px;
+    }
+    .buttons{
+      visibility: hidden;
+    }
+}
+.recents{
+  margin:50px;
+  margin-top: 60%;
+}
+.container {
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+/* Centered text */
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 2px;
+}
+.bottomtext{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 2px;
+}
+
 /*BUTTONS*/
 .buttons{
-    background-color:rgb(0, 0, 0);
+    background-color:rgba(255, 240, 240, 0.034);
     border-radius: 25px;
-    border-width: 5px;
-    text-decoration-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #feffff;
     color: rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;
     font-weight: lighter ;
-    padding-top: 1%;
-    padding-bottom:1%;
-    padding-left: 5%;
-    padding-right: 5%;
     font-size: 19px;
     height:auto;
+    bottom: 10%;
 }
 
 .buttons:hover{
-    background-color: rgba(255, 52, 52, 0.418);
+    background-color: rgba(139, 182, 223, 0.74);
+}
+a.links{
+  text-decoration: none;
+  color:aliceblue
 }
 
-
-/*HEADER STYLES*/
+/* STYLES*/
 h1{
-  font-family: 'Noto Serif Display', serif;
-  font-weight: heavier ;
-  color:rgb(0, 0, 0);
-  font-size: 70px;  
-  
-  }
+  font-family: 'Rochester', cursive; 
+  font-size:100px; 
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  margin: 1px;
+}
 
 h2{
     font-family: 'Poppins', sans-serif;
     font-weight: lighter ;
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    letter-spacing: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    letter-spacing: 10px;
     font-weight: 800;
+    margin: 1px;
   }
 
 h3{
-  color: black;
+  color: rgb(255, 255, 255);
   font-family: 'Poppins', sans-serif;
   font-weight: lighter ;
   font-size: 30px;
 }
 
 h4{
-  color:rgb(0, 0, 0);
+  color:rgb(255, 253, 253);
   font-weight: lighter ;
   font-style: 'Semi-bold 600';
   font-style: 'Noto Serif Display';
@@ -62,19 +130,18 @@ h5{
 }
 
 h6{
-  color:rgba(255, 0, 0, 0.747);
-  font-size: 20px;
-  
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter ; 
+  color: rgb(255, 255, 255);
+
 }
 p{
-  color: black;
+  color: rgb(255, 251, 251);
   font-family: 'Poppins', sans-serif;
   font-weight: lighter ;
 }
 
-.aboutme{
-  max-width: 70%;
-}
+
 /*links*/
 
 .h6link{
@@ -87,48 +154,19 @@ p{
   margin: 5px;
 }
 
-.booklink{
-  color:black;
-  margin-left: 50px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: lighter ;
-}
-/*link in link*/
-.linkedlink{
-  color:rgb(0, 0, 0);
-}
-
 
 /*HEADER TEXT AND STYLE*/
-
-
-header{
-line-height:3px;
-
-}
-
-.navi {
-    display: inline;
-    list-style-type: none;
-    white-space: nowrap;
-  }
-
-.toppart{
-  background-color: rgb(0, 0, 0);
-  height:90%;
-}
 
 
 hr.solid {
   border-top: 2px solid rgb(255, 255, 255);
   width: 40%;
 }
-
-
-/*
-.videostable{
-  margin:5%;
-}*/
+hr.solid2 {
+  border-top: 1px solid rgb(255, 255, 255);
+  width: 100%;
+  margin: 0;;
+}
 
 .thumbnail{
   border-radius: 5%;
@@ -137,28 +175,11 @@ hr.solid {
   margin:4px;
 }
 
-/*BODY*/
-body{
-  background-color: rgb(255, 255, 255);
-  padding: 5px;
-}
-
-
-footer{ 
-  bottom: 0;
-}
 
 /*video table*/
 
+/*HAMBURGER*/
 
-/* Control the bottom color */
-
-
-/*HAMBURGER
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #6C7A86 ;
-}*/
 
 #menu {
   z-index: 2;
@@ -174,7 +195,7 @@ body {
 .bar {
   height: 3px;
   width: 100%;
-  background-color: #000000b9;
+  background-color: #ffffffb9;
   display: block;
   border-radius: 5px;
   transition: 1s ease;
@@ -203,7 +224,7 @@ body {
 }
 
 .nav li a {
-  color: rosybrown;
+  color: #feffff;
   font-size: 15px;
   text-decoration: none;
 }
@@ -223,7 +244,7 @@ body {
   width: 0;
   height: 0;
   margin: 5px 0 15px 10px;
-  background: radial-gradient(circle, #fae6d0e7, #faebd9d7);
+  background: radial-gradient(circle, #ffffffa4, #ffffffd7);
   border-radius: 50%;
   transition: .1s ease;
 }
@@ -234,7 +255,7 @@ body {
 }
 
 .change .bar {
-  background-color: rosybrown;
+  background-color: rgb(255, 255, 255);
 }
 
 .change #bar1 {
@@ -255,31 +276,122 @@ body {
   transform: translate(-60%,-30%);
 }
 
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
 
-/*animated*/
-/*begin smooth animation 1*/
-
-.smoothed-out {
-  overflow: hidden;
-  border-right: .15em solid rgb(0, 0, 0);
-  font-size: 1.6rem;
-  width: 0;
-  line-height: 20px;
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
-.onecontainer {
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.text2{
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 8px;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  margin-left: 45%;;
+}
+.button2{
+  background-color:rgba(255, 240, 240, 0.034);
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #feffff;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter ;
+    font-size: 19px;
+    height:auto;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
   display: inline-block;
+  transition: background-color 0.6s ease;
 }
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+
+.active, .dot:hover {
+  background-color: #717171;
 }
-.smoothed-out{
-  overflow: hidden;
-  border-right: .15em solid rgb(255, 255, 255);
-  white-space: nowrap;
-  font-size: 1.6rem;
-  width: 0;
-  animation: typing 4s forwards;
-  padding: 1%;
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
-/*end smooth animation*/
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
