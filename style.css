@@ -10,35 +10,26 @@ footer{
   z-index:10;
   margin-bottom: 0%;
 }
-
-/*@media only screen and (max-width: 600px) {
+.center2{
+  visibility: hidden;
+}
+@media only screen and (max-width: 600px) {
   .transparent {
     visibility: visible;
   }
-  h1{
-    font-family: 'Rochester', cursive; 
-    font-size:30px; 
-    font-weight: lighter;
-    color: rgb(255, 255, 255);
-    margin: 1px;
+  .center2{
+    visibility: visible;
   }
-  
-  h2{
-      font-family: 'Poppins', sans-serif;
-      font-weight: lighter ;
-      color: rgb(255, 255, 255);
-      font-size: 8px;
-      letter-spacing: 2px;
-      font-weight: 800;
-      margin: 1px;
-    }
+  .center{
+    visibility: hidden;
+  }
     .text3,
     .text4,
     .text5,
     .navbartop{
       visibility: hidden;
     }
-}*/
+}
 .navbartop{
   width: 100%;
   background-color: #00000046;
@@ -47,7 +38,6 @@ footer{
   left: 0;
   right:0;
   height:65px;
-  margin-bottom: 10px;
 }
 .recents{
   margin:50px;
@@ -64,6 +54,13 @@ footer{
 }
 /* Centered text */
 .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 2px;
+}
+.center2 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -155,10 +152,11 @@ h2{
   }
 
 h3{
+  font-family: 'Rochester', cursive; 
+  font-size:40px; 
+  font-weight: lighter;
   color: rgb(255, 255, 255);
-  font-family: 'Poppins', sans-serif;
-  font-weight: lighter ;
-  font-size: 30px;
+  margin: 1px;
 }
 
 h4{
@@ -169,12 +167,13 @@ h4{
   }
 
 h5{
-  color: black;
   font-family: 'Poppins', sans-serif;
   font-weight: lighter ;
-  font-size: 15px;
-  text-decoration: none;
-  padding: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 8px;
+  letter-spacing: 4px;
+  font-weight: 300;
+  margin: 1px;
 }
 
 h6{
