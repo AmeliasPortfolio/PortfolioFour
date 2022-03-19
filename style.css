@@ -17,7 +17,7 @@ footer{
   }
   h1{
     font-family: 'Rochester', cursive; 
-    font-size:large; 
+    font-size:60px; 
     font-weight: lighter;
     color: rgb(255, 255, 255);
     margin: 1px;
@@ -47,6 +47,7 @@ footer{
   left: 0;
   right:0;
   height:65px;
+  margin-bottom: 10px;
 }
 .recents{
   margin:50px;
