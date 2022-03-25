@@ -1,5 +1,5 @@
 body {
-  background-color: #000000;
+  background-color: #ffffff;
   height: 100%;
 }
 
@@ -160,7 +160,7 @@ h3{
 }
 
 h4{
-  color:rgb(255, 253, 253);
+  color:rgb(0, 0, 0);
   font-weight: lighter ;
   font-style: 'Semi-bold 600';
   font-style: 'Noto Serif Display';
@@ -179,7 +179,7 @@ h5{
 h6{
   font-family: 'Poppins', sans-serif;
   font-weight: lighter ; 
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 
 }
 p{
@@ -206,11 +206,11 @@ p{
 
 
 hr.solid {
-  border-top: 2px solid rgb(255, 255, 255);
+  border-top: 2px solid rgb(0, 0, 0);
   width: 40%;
 }
 hr.solid2 {
-  border-top: 1px solid rgb(255, 255, 255);
+  border-top: 1px solid rgb(0, 0, 0);
   width: 100%;
   margin: 0;;
 }
@@ -335,7 +335,7 @@ img {vertical-align: middle;}
   margin: auto;
 }
 /* Slideshow container 2 */
-.slideshow-container2 {
+.slideshow-container2art {
   max-width: 1000px;
   position: relative;
   margin: auto;
