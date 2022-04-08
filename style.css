@@ -41,7 +41,11 @@ footer{
   height:65px;
 }
 .recents{
-  margin:50px;
+  margin:10px;
+  margin-top: 30%;
+}
+.shop{
+  margin:40px;
   margin-top: 60%;
 }
 .container {
@@ -242,7 +246,7 @@ hr.solid2 {
 .bar {
   height: 3px;
   width: 100%;
-  background-color: #ffffffb9;
+  background-color: #030303b9;
   display: block;
   border-radius: 5px;
   transition: 1s ease;
@@ -271,7 +275,7 @@ hr.solid2 {
 }
 
 .nav li a {
-  color: #feffff;
+  color: #000000;
   font-size: 15px;
   text-decoration: none;
 }
@@ -302,7 +306,7 @@ hr.solid2 {
 }
 
 .change .bar {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
 
 .change #bar1 {
@@ -417,14 +421,14 @@ img {vertical-align: middle;}
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: rgb(250, 215, 169);
+  background-color: rgb(84, 108, 84);
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #ffe8b6;
+  background-color: #75a573;
 }
 
 /* Fading animation */
