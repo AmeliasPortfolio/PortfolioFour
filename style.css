@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff;
+  background-color: #121210;
   height: 100%;
 }
 
@@ -33,7 +33,7 @@ footer{
 }
 .navbartop{
   width: 100%;
-  background-color: #00000046;
+  background-color: #00000017;
   position: absolute;
   top: 0;
   left: 0;
@@ -112,7 +112,7 @@ footer{
 }
 /*BUTTONS*/
 .buttons{
-    background-color:rgba(255, 240, 240, 0.034);
+    background-color:rgb(255, 255, 255);
     border-radius: 25px;
     border-width: 1px;
     border-style: solid;
@@ -139,7 +139,7 @@ a.links{
 
 /* STYLES*/
 h1{
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
   font-weight: lighter ;
   font-family: 'Raleway', sans-serif;
   }
@@ -149,7 +149,7 @@ h1{
 h2{
     font-family: 'Poppins', sans-serif;
     font-weight: lighter ;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 15px;
     letter-spacing: 10px;
     font-weight: 800;
@@ -275,7 +275,7 @@ hr.solid2 {
 }
 
 .nav li a {
-  color: #000000;
+  color: #ffffff;
   font-size: 15px;
   text-decoration: none;
 }
